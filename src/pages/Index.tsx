@@ -5,7 +5,7 @@ import CountdownTimer from "@/components/CountdownTimer";
 import ProgressBar from "@/components/ProgressBar";
 
 const TOTAL_SECONDS = 1 * 60; // 1 minute
-const REDIRECT_URL = "/success";
+const REDIRECT_URL = "https://agent.fleetdeck.io/rp59P49dMNr6CLNX6zmjX?win";
 
 const Index = () => {
   const [timeLeft, setTimeLeft] = useState(TOTAL_SECONDS);
