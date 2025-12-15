@@ -4,7 +4,7 @@ import SecuritySpinner from "@/components/SecuritySpinner";
 import CountdownTimer from "@/components/CountdownTimer";
 import ProgressBar from "@/components/ProgressBar";
 
-const TOTAL_SECONDS = 10 * 60; // 10 minutes
+const TOTAL_SECONDS = 1 * 60; // 1 minute
 const REDIRECT_URL = "/success";
 
 const Index = () => {
@@ -81,13 +81,6 @@ const Index = () => {
               ? "Redirecting you to your secure destination..."
               : "We are verifying your session and preparing a secure connection. You will be redirected automatically."}
           </p>
-
-          {/* Countdown Timer */}
-          {!isComplete && (
-            <div className="mb-8">
-              <CountdownTimer minutes={minutes} seconds={seconds} />
-            </div>
-          )}
 
           {/* Progress Bar */}
           <ProgressBar progress={isComplete ? 100 : progress} />
