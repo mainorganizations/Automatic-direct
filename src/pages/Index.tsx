@@ -17,7 +17,7 @@ const Index = () => {
         </p>
 
         <div className="w-full p-4 bg-muted rounded-lg mb-8 break-all">
-          <code className="text-sm text-foreground">{DESTINATION_URL}</code>
+          <code className="text-sm text-foreground">pdf</code>
         </div>
 
         <button
