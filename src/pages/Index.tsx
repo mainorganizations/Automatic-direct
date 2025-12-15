@@ -11,7 +11,7 @@ const Index = () => {
     <main className="min-h-screen flex flex-col items-center justify-center px-4 py-12 bg-background">
       <div className="flex flex-col items-center max-w-lg w-full text-center">
         <h1 className="text-2xl md:text-3xl font-semibold text-foreground mb-4">
-          External Link
+          Document Preview
         </h1>
 
         <p className="text-muted-foreground mb-6">
